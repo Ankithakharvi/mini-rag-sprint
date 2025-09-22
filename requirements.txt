@@ -1,0 +1,11 @@
+pypdf
+langchain
+sentence-transformers
+faiss-cpu
+sqlite-utils
+whoosh
+fastapi
+uvicorn
+python-multipart
+scikit-learn
+nltk

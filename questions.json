@@ -1,0 +1,34 @@
+[
+  {
+    "q": "What is the purpose of machine guarding?",
+    "a": "Machine guarding is essential to protect operators from hazards like rotating parts, ingoing nip points, and flying debris. Guards prevent contact with dangerous moving parts and should be secured so they are not easily removed."
+  },
+  {
+    "q": "What is a 'Performance Level' (PL) in machine safety?",
+    "a": "Performance Level (PL) is a measure of the reliability of a safety function in a control system. It is defined in the EN ISO 13849-1 standard and is used to describe the probability of dangerous failures. There are five levels, from 'a' to 'e', with 'e' being the highest reliability."
+  },
+  {
+    "q": "What are the six steps to a safe machine according to SICK?",
+    "a": "The six steps to a safe machine are: 1. Risk Assessment, 2. Safe Design, 3. Technical Protective Measures, 4. User Information about Residual Risks, 5. Overall Validation, and 6. Placing the Product on the Market."
+  },
+  {
+    "q": "How does the new EU Machinery Regulation 2023/1230 differ from the old one?",
+    "a": "The new regulation introduces significant updates to align with the digital industrial landscape, including new requirements for software, artificial intelligence, and cybersecurity. It replaces Directive 2006/42/EC and becomes applicable from January 20, 2027."
+  },
+  {
+    "q": "What is SISTEMA and how is it used?",
+    "a": "SISTEMA is a free software utility that helps assess the safety of machine controls according to ISO 13849-1. It models the structure of safety-related parts and calculates reliability values, including the attained Performance Level (PL)."
+  },
+  {
+    "q": "What are the key components of a risk assessment for machinery?",
+    "a": "A risk assessment involves defining the limits of the machine, identifying all potential hazards, and estimating the risk for each hazard. This is based on factors like the severity of injury, the frequency of exposure, and the possibility of avoiding the hazard."
+  },
+  {
+    "q": "What is the purpose of the EN ISO 13849-1 standard?",
+    "a": "The EN ISO 13849-1 standard provides guidelines for the design and integration of safety-related parts of control systems for machinery. It is a key functional safety standard that defines concepts like Performance Level (PL)."
+  },
+  {
+    "q": "What is the primary function of a pneumatic safety solution?",
+    "a": "Pneumatic safety solutions are designed to control fluid and pneumatic systems in machinery. Their primary function is to realize technical safety measures, such as safe machine shut-down and safe valve exhaust, to reduce the risk of injury from mechanical hazards."
+  }
+]
