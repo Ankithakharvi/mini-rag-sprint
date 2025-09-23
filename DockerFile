@@ -10,10 +10,8 @@ COPY . .
 # Install the Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Run the ingestion script to create the necessary data files
-# This is crucial for FAISS and Whoosh to be available
-RUN python ingest.py
-RUN python embed_index.py
+# The ingestion and embedding steps are now removed.
+# They are only necessary for initial data processing.
 
 # Expose the port that your API will run on
 EXPOSE 7860
