@@ -10,11 +10,11 @@ COPY . .
 # Install the Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# The ingestion and embedding steps are now removed.
-# They are only necessary for initial data processing.
+# This template assumes your data files are pre-built.
 
 # Expose the port that your API will run on
 EXPOSE 7860
 
 # Command to run the application when the container starts
-CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "7860"]
+# --- FIX: Change 'api:app' to 'app:app' to match your new file name
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7860"]
