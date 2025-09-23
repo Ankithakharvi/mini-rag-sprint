@@ -1,0 +1,22 @@
+# Use a lightweight Python base image
+FROM python:3.9-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy all project files into the container
+COPY . .
+
+# Install the Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Run the ingestion script to create the necessary data files
+# This is crucial for FAISS and Whoosh to be available
+RUN python ingest.py
+RUN python embed_index.py
+
+# Expose the port that your API will run on
+EXPOSE 7860
+
+# Command to run the application when the container starts
+CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "7860"]
