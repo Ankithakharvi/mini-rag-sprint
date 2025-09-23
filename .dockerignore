@@ -1,0 +1,15 @@
+# Ignore Git-related files
+.git
+.gitignore
+.gitattributes
+
+# Ignore Python-specific temporary files
+__pycache__/
+*.pyc
+*.env
+
+# Ignore large data files not needed for the build
+# The ingest.py script creates these in a separate run,
+# but they get included in the build context if not ignored.
+data/
+*.pdf
